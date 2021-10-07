@@ -7,44 +7,7 @@
     <title>제어문</title>
 </head>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-<style>
-    body{
-        padding : 20px;
-        line-height: 40px;
-    }
-    article{
-        margin-bottom : 40px;
-    }
-    h1,h2{
-        color:orange;
-        border-bottom : 1px solid orange;
-        font-weight: bold;
-    }
-    h3{
-        color:skyblue;
-        font-weight: bold;
-    }
-    div{
-        margin-bottom:20px;
-    }
-    textarea{
-        border: none;
-        outline: none;
-        resize: none;
-    }
-    .darkorange{
-        color:darkorange;
-        font-weight: bold;
-    }
-    .box{
-        border: 1px solid F4F4F4;
-        background-color: #F4F4F4;
-        font-weight: bold;
-        width: 95vw;
-        padding:20px;
-    }
-    
-</style>
+<link rel="stylesheet" href="/src/css/공통.css" type="text/css">
 <body>
     <article>
         <h1>8장 제어문</h1>
@@ -69,6 +32,9 @@
             (코드의 길이가 짧아짐, 삼항연산식을 두번 이상 중첩 할 경우 오히려 가독성이 안 좋아 진다.)
             <textarea class="box" style="height: 300px;" id="ex1">
             </textarea>
+            <div class="ta_btn_div">
+                <button type="button" class="ta_btn" data-id="ex1">실행</button>
+            </div>
         </div>
         <div>
             <h3>8.2.2 switch 문</h3>
@@ -78,6 +44,9 @@
             case문이 끝날때 break를 안해주면 아래 코드를 실행함. 의도적으로 사용하는 경우도 있음.
             <textarea class="box" style="height: 500px;" id="ex2">
             </textarea>
+            <div class="ta_btn_div">
+                <button type="button" class="ta_btn" data-id="ex2">실행</button>
+            </div>
         </div>
     </article>
     <article>
@@ -86,6 +55,9 @@
         for 문이랑 while문만 알아도 됨. do while은 거의 안 씀.
         <textarea class="box" style="height: 400px;" id="ex3">
         </textarea>
+        <div class="ta_btn_div">
+            <button type="button" class="ta_btn" data-id="ex3">실행</button>
+        </div>
         
         while 문은 반복횟수가 정해지지 않았을 경우 주로 사용.<br>
         보통 실행문안 조건문을 조작하는 코드가 있어 특정 횟수를 반복하면 조건문을 false로 만들어 탈출<br>
@@ -97,7 +69,11 @@
         보통 break 는 필요한 것을 찾을때, continue 는 필요없는것을 건너뛸때<br>
         <textarea class="box" style="height: 440px;" id="ex4">
         </textarea>
+        <div class="ta_btn_div">
+            <button type="button" class="ta_btn" data-id="ex4">실행</button>
+        </div>
     </article>
- <script src="/src/제어문.js"></script>   
+<script src="/src/js/공통.js"></script>    
+<script src="/src/js/제어문.js"></script>   
 </body>
 </html>

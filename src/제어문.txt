@@ -1,3 +1,10 @@
+=== ex1
+let kind = null;
+let number = 100;
+kind = number > 0 ? '양수' : '음수';
+alert(kind);
+
+
 === ex2
 
 var year = 2000;
@@ -15,20 +22,24 @@ if(month === 1 || month === 3 || month === 5 || month === 7 || month === 8 || mo
         days = 28;
     }
 }else{
-    console.log('Invalid month');
+   days = 'Invalid month';
 }
-
+alert(days);
 
 === ex3
 1.
+let result = '';
 for(let i = 1; i<6; i++){
     let star = '';
     for(let j = 1; j<=i; j++){
         star += '*';
     }
-    console.log(star);
+    star += '\n';
+    result += star;
 }
+alert(result);
 2.
+let result = '';
 for(let i = 0; i<5; i++){
     let star = '';
     for(let space = Math.abs(i - 2); space>0; space--){
@@ -43,6 +54,10 @@ for(let i = 0; i<5; i++){
                 star += '*';
         }
     }
-    console.log(star);
+    star += '\n';
+    result += star;
 }
+alert(result);
+
+
 

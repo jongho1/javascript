@@ -69,10 +69,8 @@ const ex4 =
     const evenArray = [];
 
     let index = -1;
-
+    // 1. array에서 숫자 8의 인덱스를 찾고 싶다.
     for(let i=0; i<array.length; i++){
-        
-        // 1. array에서 숫자 8의 인덱스를 찾고 싶다.
 
         if(array[i] === 8){
 
@@ -82,7 +80,11 @@ const ex4 =
 
         }
 
-        // 2. array 에서 짝수일 경우만 골라 새로운 배열에 넣고싶다.(홀수는 필요없다.)
+    }
+    alert(index);
+    // 2. array 에서 짝수일 경우만 골라 새로운 배열에 넣고싶다.(홀수는 필요없다.)
+
+    for(let i=0; i<array.length; i++){
 
         if(array[i] % 2 === 1){
 
@@ -92,5 +94,7 @@ const ex4 =
 
         evenArray.push(array[i]);
     }
+    alert(evenArray);
 `;
 $("#ex4").html(ex4);
+

@@ -1,0 +1,49 @@
+body{
+    padding : 20px;
+    line-height: 40px;
+}
+article{
+    margin-bottom : 40px;
+}
+h1,h2{
+    color:orange;
+    border-bottom : 1px solid orange;
+    font-weight: bold;
+}
+h3{
+    color:skyblue;
+    font-weight: bold;
+}
+div{
+    margin-bottom:20px;
+}
+textarea{
+    border: none;
+    outline: none;
+    resize: none;
+}
+.darkorange{
+    color:darkorange;
+    font-weight: bold;
+}
+.box{
+    border: 1px solid F4F4F4;
+    background-color: #F4F4F4;
+    font-weight: bold;
+    width: 95vw;
+    padding:20px;
+}
+.ta_btn{
+    padding: 7px 25px;
+    border:none;
+    background: #F8934D;
+    color:white;
+    height: 60px;
+    width:350px;
+    font-size: 18px;
+}
+.ta_btn_div{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
