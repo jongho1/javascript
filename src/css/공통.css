@@ -47,3 +47,37 @@ textarea{
     display: flex;
     justify-content: flex-end;
 }
+#categoryDiv{
+    display: flex;
+    justify-content: flex-end;
+    align-content: center;
+}
+#goCategory{
+    cursor: pointer;
+    color: blue;
+    text-decoration: underline;
+}
+table th, table td{
+	border-top : 1px solid #E1E1E1;
+	border-bottom : 1px solid #E1E1E1;
+	background-color: white;
+	vertical-align: middle;
+}
+table th:first-child, table td:first-child{
+	border-left : 1px solid #E1E1E1;
+}
+table th:last-child, table td:last-child{
+	border-right : 1px solid #E1E1E1;
+}
+table{
+	border-collapse: collapse;
+}
+table thead td, table thead th{
+	background-color: #FBFBFB;
+	font-weight: bold;
+	font-size: 15px;
+	text-align: center;
+}
+table tbody td{
+	text-align: center;
+}
